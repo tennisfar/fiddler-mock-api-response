@@ -1,0 +1,59 @@
+{
+  "player": {
+    "playerId": "1233735",
+    "email": "21lmi3004910086@mailinator.com",
+    "name": "mlpe1234",
+    "alias": "mlpe1234"
+  },
+  "groups": [
+    {
+      "groupPlayerCount": 1,
+      "groupPlayers": [
+        {
+          "status": "ADDED",
+          "playsParticipatingCount": 0,
+          "playerId": "1233735",
+          "name": "Niels H.",
+          "alias": "mlpe1234"
+        }
+      ],
+      "groupPlayCount": 0,
+      "groupPlays": [],
+      "groupId": 82926,
+      "name": "The Bounty Hunter",
+      "chairman": {
+        "playerId": "1233735",
+        "name": "Niels H.",
+        "alias": "mlpe1234"
+      },
+      "playerCount": 1,
+      "isOpenForRegistration": true,
+      "linkGroupId": "wGijaho0",
+      "inviteLink": "https://town21.danskespil.dk/spil-sammen/spilleklub/velkommen?klubId=wGijaho0",
+      "theme": {
+        "background": {
+          "url": "",
+          "id": "ee21a5348fd24729a7fb2d66e6ef5843"
+        },
+        "badge": {
+          "url": "https://town21.ds-static.dk/dlo/-/media/danskespil/billeder/spil-sammen/2/trophy.ashx",
+          "id": "6b352674a71a4a65b7682f7c01766780"
+        },
+        "badgeBackground": {
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.5 7.5L24 2l17.6 5.5L46 24l-4.4 17.6L24 46 7.5 41.6 2 24 7.5 7.5z\" fill=\"#062C43\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "url": "https://town21.ds-static.dk/dlo/-/media/danskespil/billeder/spil-sammen/2/oktagon.ashx",
+          "id": "dce5c9f8516741188514d911c26790d0"
+        },
+        "colorTheme": {
+          "code": "#53CA83",
+          "id": "8ac248c0779841a1b696761d4e81d143"
+        }
+      },
+      "rules": {
+        "allowAllCreate": false,
+        "allowAllInvite": false,
+        "isOpenForRegistration": true
+      }
+    }
+  ]
+}

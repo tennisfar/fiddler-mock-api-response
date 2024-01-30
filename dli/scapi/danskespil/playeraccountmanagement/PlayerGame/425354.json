@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "data": {
+    "Id": "425354",
+    "Wager": -1000,
+    "WagerStatus": "STARTED",
+    "Win": 0,
+    "WinStatus": "Minus",
+    "CouponUrl": "https://town35.dswebapp.sb.danskespil.dk/cust-pools/bet/betDetails/pam/264907/OB_TIPS13",
+    "SubscriptionId": null,
+    "Fees": 0,
+    "Channel": "Forhandler",
+    "Type": "Tips",
+    "Currency": "DKK",
+    "CanBePaidOut": false,
+    "IsPlayTogetherGame": false,
+    "WagerSetOrder": null,
+    "GameVariant": null,
+    "ShowDetail": true,
+    "GameDisplayName": "TIPS13FT",
+    "GameId": "455",
+    "VerticalId": "ob",
+    "VerticalName": "OpenBet",
+    "ExternalId": "pc_264907",
+    "ExternalCampaignId": null,
+    "Text": "&nbsp;",
+    "Link": null,
+    "OnHold": false,
+    "CreatedAt": "2024-01-23T12:39:19",
+    "DrawDate": "2024-01-23T12:39:19",
+    "Wins": null
+  }
+}

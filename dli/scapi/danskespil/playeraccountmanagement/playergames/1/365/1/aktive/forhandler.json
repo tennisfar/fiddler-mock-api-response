@@ -1,0 +1,230 @@
+{
+  "status": "success",
+  "data": {
+    "HasNext": false,
+    "HasPrevious": false,
+    "Verticals": {
+      "Filters": [
+        {
+          "Key": "alle-spil",
+          "Name": "Alle"
+        },
+        {
+          "Key": "aktive",
+          "Name": "Aktive spil"
+        },
+        {
+          "Key": "afsluttede",
+          "Name": "Afsluttede spil"
+        },
+        {
+          "Key": "bingo",
+          "Name": "Bingo"
+        },
+        {
+          "Key": "casino-automater",
+          "Name": "Casino - automater"
+        },
+        {
+          "Key": "casino-bordspil",
+          "Name": "Casino - bordspil"
+        },
+        {
+          "Key": "casino-andre",
+          "Name": "Casino - andre"
+        },
+        {
+          "Key": "dantoto",
+          "Name": "Dantoto"
+        },
+        {
+          "Key": "live-casino",
+          "Name": "Live Casino"
+        },
+        {
+          "Key": "oddset",
+          "Name": "Oddset"
+        },
+        {
+          "Key": "oddset-live",
+          "Name": "Oddset Live"
+        },
+        {
+          "Key": "maaljagt",
+          "Name": "Oddset Måljagt"
+        },
+        {
+          "Key": "cashgames",
+          "Name": "Poker"
+        },
+        {
+          "Key": "turneringer",
+          "Name": "Poker"
+        },
+        {
+          "Key": "spillehjoernet",
+          "Name": "Spillehjørnet"
+        },
+        {
+          "Key": "tips",
+          "Name": "Tips"
+        },
+        {
+          "Key": "zezam",
+          "Name": "Zezam"
+        }
+      ],
+      "Header": "Spil",
+      "Label": "Vis:",
+      "OffsetEnabled": false
+    },
+    "Channels": {
+      "Filters": [
+        {
+          "Key": "alle-kanaler",
+          "Name": "Alle"
+        },
+        {
+          "Key": "web",
+          "Name": "Spilkonto"
+        },
+        {
+          "Key": "forhandler",
+          "Name": "Forhandler"
+        }
+      ],
+      "Header": "Kanal",
+      "Label": "Vis:",
+      "OffsetEnabled": false
+    },
+    "PlayerGames": [
+      {
+        "Id": "425354",
+        "Wager": -1000,
+        "WagerStatus": "STARTED",
+        "Win": 0,
+        "WinStatus": "Minus",
+        "CouponUrl": "https://town35.dswebapp.sb.danskespil.dk/cust-pools/bet/betDetails/pam/264907/OB_TIPS13",
+        "SubscriptionId": null,
+        "Fees": 0,
+        "Channel": "Forhandler",
+        "Type": "Tips",
+        "Currency": "DKK",
+        "CanBePaidOut": false,
+        "IsPlayTogetherGame": false,
+        "WagerSetOrder": "/",
+        "GameVariant": "-",
+        "ShowDetail": true,
+        "GameDisplayName": "TIPS13FT",
+        "GameId": "455",
+        "VerticalId": "ob",
+        "VerticalName": "OpenBet",
+        "ExternalId": "pc_264907",
+        "ExternalCampaignId": null,
+        "Text": "&nbsp;",
+        "Link": null,
+        "OnHold": false,
+        "CreatedAt": "2024-01-23T12:39:19Z",
+        "DrawDate": null,
+        "Wins": []
+      },
+      {
+        "Id": "425353",
+        "Wager": -1000,
+        "WagerStatus": "STARTED",
+        "Win": 0,
+        "WinStatus": "Minus",
+        "CouponUrl": "https://town35.dswebapp.sb.danskespil.dk/cust-pools/bet/betDetails/pam/264906/OB_TIPS13",
+        "SubscriptionId": null,
+        "Fees": 0,
+        "Channel": "Forhandler",
+        "Type": "Tips",
+        "Currency": "DKK",
+        "CanBePaidOut": false,
+        "IsPlayTogetherGame": false,
+        "WagerSetOrder": "/",
+        "GameVariant": "-",
+        "ShowDetail": true,
+        "GameDisplayName": "TIPS13FT",
+        "GameId": "455",
+        "VerticalId": "ob",
+        "VerticalName": "OpenBet",
+        "ExternalId": "pc_264906",
+        "ExternalCampaignId": null,
+        "Text": "&nbsp;",
+        "Link": null,
+        "OnHold": false,
+        "CreatedAt": "2024-01-23T12:39:16Z",
+        "DrawDate": null,
+        "Wins": []
+      },
+      {
+        "Id": "425352",
+        "Wager": -2000,
+        "WagerStatus": "STARTED",
+        "Win": 0,
+        "WinStatus": "Minus",
+        "CouponUrl": "https://town35.dswebapp.sb.danskespil.dk/cust-pools/bet/betDetails/pam/264905/OB_TIPS12",
+        "SubscriptionId": null,
+        "Fees": 0,
+        "Channel": "Forhandler",
+        "Type": "Tips",
+        "Currency": "DKK",
+        "CanBePaidOut": false,
+        "IsPlayTogetherGame": false,
+        "WagerSetOrder": "/",
+        "GameVariant": "-",
+        "ShowDetail": true,
+        "GameDisplayName": "TIPS12",
+        "GameId": "453",
+        "VerticalId": "ob",
+        "VerticalName": "OpenBet",
+        "ExternalId": "pc_264905",
+        "ExternalCampaignId": null,
+        "Text": "&nbsp;",
+        "Link": null,
+        "OnHold": false,
+        "CreatedAt": "2024-01-23T12:39:10Z",
+        "DrawDate": null,
+        "Wins": []
+      }
+    ],
+    "Periods": {
+      "Filters": [
+        {
+          "Key": "1",
+          "Name": "Valgt dato"
+        },
+        {
+          "Key": "7",
+          "Name": "Valgt dato - 7 dage"
+        },
+        {
+          "Key": "31",
+          "Name": "Valgt dato - 31 dage"
+        },
+        {
+          "Key": "365",
+          "Name": "Valgt dato - 365 dage"
+        }
+      ],
+      "Header": "Periode",
+      "Label": "Vis periode:",
+      "OffsetEnabled": true
+    },
+    "CurrentFilter": {
+      "Page": 1,
+      "PageSize": 50,
+      "ChannelId": "kiosk,retailer",
+      "Offset": 1,
+      "SortOrder": "desc",
+      "Sort": "wagerStatus",
+      "PeriodId": 365,
+      "GameId": null,
+      "GameType": null,
+      "WagerStatus": "STARTED",
+      "To": "2024-01-30",
+      "From": "2023-01-29"
+    }
+  }
+}
