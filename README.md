@@ -44,7 +44,7 @@ static function CheckAndMockResponse(oSession: Session, hostnamePrefix: String, 
             var fileContents = System.IO.File.ReadAllText(filePath);
             oSession.utilSetResponseBody(fileContents);
         } else {
-            FiddlerObject.log("FILE NOT FOUND: " + filePath);
+            FiddlerObject.log("\n\n    FILE NOT FOUND: " + filePath + "\n");
         }
     }
 }
