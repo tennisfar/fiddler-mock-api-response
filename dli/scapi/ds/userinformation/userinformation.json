@@ -1,0 +1,43 @@
+{
+  "customerInfo": {
+    "userBalance": {
+      "totalBalance": 55001.0,
+      "availableBalance": 55002.0,
+      "restrictedBalance": 1.0,
+      "pokerBalance": 2.0,
+      "bonusBalance": 3.0,
+      "bingoBonusBalance": null
+    },
+    "balance": 55003.0,
+    "totalBalance": 55004.0,
+    "availableBalance": 55005.0,
+    "restrictedBalance": 4.0,
+    "alias": "285666116",
+    "firstName": "Niels",
+    "lastName": "Holm",
+    "userName": "tennisfar",
+    "hasConsentedToDataprocessing": true,
+    "hasLimits": false,
+    "hasGameAccount": true,
+    "isRetailAccount": false,
+    "hasSubscription": false,
+    "prevLoginTime": null,
+    "permission": null,
+    "accountLimit": 0.0,
+    "userId": null,
+    "loggedInWithNemId": false,
+    "customerId": "1340278",
+    "userIdHashed": "37AD355FA83505554B71524240FCC51B0D99F1517C04FFC1188A2A4150894B81",
+    "updatedAt": "2024-02-26T12:30:08+01:00",
+    "email": "ekmlpe2408101629@town21.danskespil.dk",
+    "phonenumber": "+4536371999",
+    "notifyPrizeEMail": true,
+    "notifyPrizeSms": true,
+    "status": "Active",
+    "loginAt": "2024-02-26T12:21:58Z",
+    "physicalPlayCardNumber": null,
+    "digitalPlayCardNumber": "567616304243",
+    "requiredParams": "",
+    "secureLoginValid": false
+  }
+}
