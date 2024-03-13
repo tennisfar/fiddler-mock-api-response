@@ -6,12 +6,14 @@ This script for Fiddler allows you to mock API responses based on specific reque
 
 1. **Install Fiddler**: If you haven't already, install [Fiddler](https://www.telerik.com/fiddler), a free web debugging tool.
 
-2. **Add the Script**:
-    - Open Fiddler, and go to `Tools` > `Options` > `Scripting`.
-    - In the ScriptEditor, paste the provided script into the correct file (usually `CustomRules.js`).
+2. **Configure Fiddler**:
+    - In Fiddler, and go to `Tools` > `Options` > `HTTPS`.
+    - Ensure the `Capture HTTPS CONNECTs` and `Decrypt HTTPS traffic` options are checked.
 
 3. **Configure the Script**:
-    - Modify the `CheckAndMockResponse` calls in the `OnBeforeResponse` function to include the hostname and path prefixes of the API endpoints you want to mock.
+    - In Fiddler, go to `Rules` > `Customize Rules...` to open the Fiddler Script Editor.
+    - In Fiddler Script Editor, go to `Go` > `to OnBeforeResponse`.
+    - Inside the `OnBeforeResponse` function, add the `CheckAndMockResponse` lines and `ConvertPathToFilePath` functions (see below).
     - Ensure the file paths in the `ConvertPathToFilePath` function reflect the structure and location of your mock JSON files.
 
 4. **Create Mock JSON Files**:
@@ -20,10 +22,13 @@ This script for Fiddler allows you to mock API responses based on specific reque
     - Note: The script replaces forward slashes (`/`) with backslashes (`\`) and question marks (`?`) with underscores (`_`) in the file paths.
 
 5. **Run Fiddler**:
+    - Open `https://web.develop.danskespil.dk/` in your browser to ensure Fiddler is capturing traffic.
+    - Fiddler should open a "Certificate Error" modal. You need to click "Yes" to trust the Fiddler root certificate, and ignore the errors.
     - With Fiddler running, it will intercept requests and, where matching criteria are met, respond with the contents of the specified mock files.
 
-6. **Test Your Application**:
+7. **Test Your Application**:
     - Run your application or make requests to the API endpoints you're mocking. Fiddler will serve the mock responses you've set up.
+    - If a mock file is not found, Fiddler will log a message to the console with the required file path.
 
 ## Script Functions
 
@@ -52,7 +57,7 @@ static function CheckAndMockResponse(oSession: Session, hostnamePrefix: String, 
 // Converts a given API path to a local file path by replacing slashes with backslashes, 
 // replacing invalid filename characters, and appending '.json'.
 static function ConvertPathToFilePath(path: String) : String {
-    var basePath = "C:\\Projects\\rep\\FiddlerMockApiResponse";
+    var basePath = "C:\\Projects\\fiddler-mock-api-response";
     var sanitizedPath = path.replace("/", "\\").replace("?", "_");
     var filePath = basePath + sanitizedPath + ".json";
     return filePath;
