@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "data": {
+    "displayNotification": true,
+    "notificationId": "19",
+    "designVariant": "normal",
+    "ruleVariant": "onlyTime",
+    "loginText": "Kl. 10:10 har du været logget ind i 19 timer og 5 minutter. Spil aldrig for mere, end du har råd til at tabe. Og husk at tage pauser.",
+    "gameText": null,
+    "accountHistoryLink": "/blaa-konto/historik#/1/365/alle-typer",
+    "showContinueButton": true,
+    "showCancelButton": true,
+    "showAccountHistoryButton": false,
+    "showResponsibleGamingLink": false,
+    "responsibleGamingLink": "https://danskespil.dk/velkommen/spil-med-omtanke",
+    "cancelLink": "https://danskespil.dk",
+    "wager": 0,
+    "win": 0,
+    "difference": 0,
+    "differenceVariant": "green",
+    "loginHours": 19,
+    "loginMinutes": 5,
+    "createdAt": "2024-05-30T08:10:00Z",
+    "nextCheckAt": "2024-05-30T09:05:24Z",
+    "loginAt": "2024-05-29T13:04:24Z"
+  }
+}
